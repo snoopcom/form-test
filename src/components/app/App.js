@@ -4,7 +4,6 @@ import SignUp from '../SignUp/SignUp';
 import './App.scss';
 
 const App = () => {
-
   return (
     <div className="App">
       <SignUp />

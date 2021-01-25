@@ -4,7 +4,6 @@ import { Form, Input, SubmitButton } from 'formik-antd';
 
 import validationSchema from './ValidationSchema';
 
-/* поля, которые отправляются на сервер */
 const initialValues = {
   login: '',
   password: '',
