@@ -1,3 +1,89 @@
 .App {
+  margin-top: 25px;
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  position: relative;
+  background: #2A2C35;
+}
+
+@media screen and (max-width: 545px) {
+  .App {
+    width: 340px;
+  }
+}
+
+.header {
+  color: #CFD2E3;
   text-align: center;
+}
+
+.form {
+  background: #2A2C35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 480px;
+  width: 370px;
+  margin: 30px auto;
+}
+
+.form > div {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.button {
+  background: #855AFF;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.buttonBack {
+  margin: 0 auto;
+  width: 100%;
+  color: #855AFF;
+  background: #2A2C35;
+  border: none;
+}
+
+@media screen and (max-width: 545px) {
+  .button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.inputName {
+  color: #CFD2E3;
+}
+
+.inputDescription {
+  color: #777B8E;
+}
+
+.formButtonsContainer {
+  display: flex;
+}
+
+@media screen and (max-width: 545px) {
+  .formButtonsContainer {
+    display: block;
+  }
+}
+
+.required-star {
+  color: red;
+}
+
+.linkContainer {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
 }

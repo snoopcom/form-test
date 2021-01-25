@@ -1,12 +1,15 @@
-import './App.scss';
-import SignUp from '../signUp/SignUp';
+import React from 'react';
+import SignUp from '../SignUp/SignUp';
 
-function App() {
+import './App.scss';
+
+const App = () => {
+
   return (
     <div className="App">
       <SignUp />
     </div>
   );
-}
+};
 
 export default App;

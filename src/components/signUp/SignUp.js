@@ -1,9 +1,9 @@
 /* eslint-disable default-case */
 import React from 'react';
 import { useForm, useStep } from 'react-hooks-helper';
-import { FirstStep }  from '../stepForm/FirstStep';
-import { SecondStep }  from '../stepForm/SecondStep';
-import { Submit }  from '../stepForm/Submit';
+import { FirstStep }  from '../FirstStep/FirstStep';
+import { SecondStep }  from '../SecondStep/SecondStep';
+import { Submit }  from '../Submit/Submit';
 
 const defaultData = {
   login: "",
