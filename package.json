@@ -1,6 +1,6 @@
 {
   "homepage": "http://snoopcom.github.io/form-test",
-  "name": "test-form",
+  "name": "form-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
